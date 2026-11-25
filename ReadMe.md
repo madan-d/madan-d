@@ -17,7 +17,8 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 
 ## 👨‍💻 About Me
 
-- 🔭 **Currently:** Student Intern at **Nokia** (Bangalore, India), building an automated **Maritime Dynamic 5G Prototype** on RHEL using Python, FastAPI, and GeoPandas.
+- 🔭 **Currently:** Software Engineer open to opportunities in **Backend, Cloud Infrastructure, and AI Systems**.
+- 🏢 **Previously:** Student Intern at **Nokia** (Bangalore, India), where I built a **Maritime Dynamic 5G Prototype** on RHEL using Python, FastAPI, and GeoPandas.
 - 🛠️ **Focus Areas:** Distributed backend systems, Kubernetes & GitOps automation, AWS Terraform infrastructure, and production RAG / AIOps pipelines.
 - ⚡ **Engineering Mindset:** I care about resilient architecture, clean developer experience, and software that works reliably under real-world constraints.
 
@@ -96,12 +97,4 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=madan-d&theme=dark&hide_border=true" alt="GitHub Streak" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=madan-d&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" height="165" />
-</div>
-
----
-
-<div align="center">
-
-[![Profile Views](https://visitcount.itsvg.in/api?id=madan-d&icon=0&color=0)](https://visitcount.itsvg.in)
-
 </div>
