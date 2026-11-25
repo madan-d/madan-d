@@ -26,7 +26,7 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 
 ## 💼 Experience
 
-### **Nokia** — *Student Intern*
+### **Nokia** - *Student Intern*
 `Aug 2025 – Jun 2026` · `Bangalore, India`
 - **Maritime Dynamic 5G Prototype:** Architected an automated geofencing system from scratch using **Python, FastAPI, and Shell Scripting on RHEL**, adapting static Femto Small Cells for maritime deployment with 100% international regulatory compliance.
 - **Geospatial Validation Engine:** Built a spatial boundary engine with **GeoPandas** and EEZ/land-union shapefiles, polling live telemetry via SSH and `cgps` to dynamically lock/unlock cell transmissions.
@@ -38,7 +38,7 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 ## 🚀 Featured Projects
 
 ### 🛡️ [Autonomous Self-Healing Kubernetes Platform (GitOps & AIOps)](https://github.com/madan-d/self_healing-microservices-platform)
-`DEVOPS · CLOUD · GITOPS · AIOPS` — Production-grade self-healing cloud platform on **AWS EKS** with **Terraform**, **ArgoCD**, and an autonomous **FastAPI AIOps** incident bot.
+`DEVOPS · CLOUD · GITOPS · AIOPS` - Production-grade self-healing cloud platform on **AWS EKS** with **Terraform**, **ArgoCD**, and an autonomous **FastAPI AIOps** incident bot.
 
 **Stack:** `AWS EKS` · `Terraform` · `Kubernetes` · `ArgoCD` · `FastAPI` · `Prometheus` · `Trivy` · `Docker` · `PostgreSQL`
 
@@ -54,7 +54,7 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 ---
 
 ### 📦 ["Client-in-a-Box" Enterprise RAG & Event-Driven Ingestion Pipeline](https://github.com/madan-d/client-in-a-box-rag)
-`CLOUD · AI ENGINEERING · FDE · TERRAFORM` — Single-tenant, zero-egress document ingestion and RAG platform deployed inside an isolated **AWS VPC**.
+`CLOUD · AI ENGINEERING · FDE · TERRAFORM` - Single-tenant, zero-egress document ingestion and RAG platform deployed inside an isolated **AWS VPC**.
 
 **Stack:** `AWS S3` · `EventBridge` · `AWS Lambda` · `ECS Fargate` · `Terraform` · `FastAPI` · `pgvector` · `Gemini / Bedrock` · `k6`
 
@@ -69,8 +69,8 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 
 ---
 
-### 🎓 [Classmos — AI-Powered Gamified Learning & Analytics Platform](https://github.com/madan-d/classmos)
-`FULL-STACK · GENAI · EDTECH · ML ANALYTICS` — Full-stack gamified learning platform with **Gemini** content generation, an **adaptive Elo engine**, and **scikit-learn** analytics.
+### 🎓 [Classmos - AI-Powered Gamified Learning & Analytics Platform](https://github.com/madan-d/classmos)
+`FULL-STACK · GENAI · EDTECH · ML ANALYTICS` - Full-stack gamified learning platform with **Gemini** content generation, an **adaptive Elo engine**, and **scikit-learn** analytics.
 
 **Stack:** `React` · `TypeScript` · `Vite` · `Tailwind CSS` · `Firebase` · `Cloud Firestore` · `Google Gemini` · `FastAPI` · `Python` · `scikit-learn`
 
@@ -99,9 +99,9 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 
 ## 📜 Certifications
 
-- **[Cloud Computing](https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs118/Course/NPTEL24CS118S105251338904118131.pdf)** — NPTEL (`2024`)
-- **[Introduction to Machine Learning](https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs101/Course/NPTEL24CS101S123310200404118131.pdf)** — NPTEL (`2024`)
-- **[Data Base Management System](https://archive.nptel.ac.in/content/noc/NOC23/SEM2/Ecertificates/106/noc23-cs79/Course/NPTEL23CS79S3554052210072626.pdf)** — NPTEL (`2024`)
+- **[Cloud Computing](https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs118/Course/NPTEL24CS118S105251338904118131.pdf)** - NPTEL (`2024`)
+- **[Introduction to Machine Learning](https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs101/Course/NPTEL24CS101S123310200404118131.pdf)** - NPTEL (`2024`)
+- **[Data Base Management System](https://archive.nptel.ac.in/content/noc/NOC23/SEM2/Ecertificates/106/noc23-cs79/Course/NPTEL23CS79S3554052210072626.pdf)** - NPTEL (`2024`)
 
 ---
 
