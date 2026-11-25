@@ -111,11 +111,3 @@ Building robust, scalable systems at the intersection of backend engineering, cl
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=madan-d&theme=dark&hide_border=true" alt="GitHub Streak" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=madan-d&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" height="165" />
 </div>
-
----
-
-<div align="center">
-
-[![Profile Views](https://visitcount.itsvg.in/api?id=madan-d&icon=0&color=0)](https://visitcount.itsvg.in)
-
-</div>
