@@ -37,38 +37,51 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 
 ## 🚀 Featured Projects
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛡️ <a href="https://github.com/madan-d/self_healing-microservices-platform">Self-Healing Kubernetes Platform (GitOps &amp; AIOps)</a></h3>
-      <p>
-        Production-grade, self-healing cloud platform on <strong>AWS EKS</strong> provisioned with modular <strong>Terraform</strong> and <strong>ArgoCD</strong> (App-of-Apps).
-      </p>
-      <ul>
-        <li>Autonomous <strong>FastAPI AIOps bot</strong> intercepting Alertmanager webhooks to inspect pod logs/events via the K8s API.</li>
-        <li>LLM root-cause analysis (AWS Bedrock / OpenAI) with automated restarts or human-in-the-loop ArgoCD rollbacks.</li>
-        <li>Built-in <strong>Trivy</strong> DevSecOps gates and Prometheus observability.</li>
-      </ul>
-      <p>
-        <code>AWS EKS</code> <code>Terraform</code> <code>ArgoCD</code> <code>FastAPI</code> <code>Prometheus</code> <code>Trivy</code> <code>Docker</code> <code>PostgreSQL</code>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📦 <a href="https://github.com/madan-d/client-in-a-box-rag">"Client-in-a-Box" Enterprise RAG Pipeline</a></h3>
-      <p>
-        Single-tenant, zero-egress document ingestion and RAG platform deployed inside an isolated <strong>AWS VPC</strong> via modular <strong>Terraform</strong>.
-      </p>
-      <ul>
-        <li>KMS-encrypted S3 uploads trigger <strong>EventBridge</strong> and a containerized Python <strong>Lambda</strong> (with SQS DLQ) to parse, chunk, and embed PDFs/CSVs into <strong>PostgreSQL (pgvector)</strong>.</li>
-        <li>Served via containerized <strong>FastAPI</strong> on <strong>ECS Fargate</strong> supporting Gemini / AWS Bedrock.</li>
-        <li>Automated Secrets Manager rotation, least-privilege IAM, and <strong>k6</strong> load-testing benchmarks.</li>
-      </ul>
-      <p>
-        <code>AWS S3</code> <code>EventBridge</code> <code>Lambda</code> <code>ECS Fargate</code> <code>Terraform</code> <code>FastAPI</code> <code>pgvector</code> <code>k6</code>
-      </p>
-    </td>
-  </tr>
-</table>
+### 🛡️ [Autonomous Self-Healing Kubernetes Platform (GitOps & AIOps)](https://github.com/madan-d/self_healing-microservices-platform)
+`DEVOPS · CLOUD · GITOPS · AIOPS` — Production-grade self-healing cloud platform on **AWS EKS** with **Terraform**, **ArgoCD**, and an autonomous **FastAPI AIOps** incident bot.
+
+**Stack:** `AWS EKS` · `Terraform` · `Kubernetes` · `ArgoCD` · `FastAPI` · `Prometheus` · `Trivy` · `Docker` · `PostgreSQL`
+
+<details>
+<summary>Key Architecture &amp; Highlights</summary>
+
+- Provisioned AWS EKS infrastructure using modular **Terraform** and **ArgoCD** GitOps (App-of-Apps).
+- Built a **Python FastAPI** AIOps bot that intercepts Alertmanager webhooks, pulls pod logs/events via the Kubernetes API, and runs LLM root-cause analysis (AWS Bedrock / OpenAI) for automated restarts or human-in-the-loop ArgoCD rollbacks.
+- Integrated **Trivy** DevSecOps gates and **Prometheus** observability across containerized microservices.
+
+</details>
+
+---
+
+### 📦 ["Client-in-a-Box" Enterprise RAG & Event-Driven Ingestion Pipeline](https://github.com/madan-d/client-in-a-box-rag)
+`CLOUD · AI ENGINEERING · FDE · TERRAFORM` — Single-tenant, zero-egress document ingestion and RAG platform deployed inside an isolated **AWS VPC**.
+
+**Stack:** `AWS S3` · `EventBridge` · `AWS Lambda` · `ECS Fargate` · `Terraform` · `FastAPI` · `pgvector` · `Gemini / Bedrock` · `k6`
+
+<details>
+<summary>Key Architecture &amp; Highlights</summary>
+
+- KMS-encrypted **S3** uploads trigger **EventBridge** and a containerized Python **Lambda** (with SQS DLQ) to parse, chunk, and embed PDFs/CSVs into **PostgreSQL (`pgvector`)**.
+- Served via containerized **FastAPI** on **ECS Fargate** supporting Gemini / AWS Bedrock.
+- Implemented automated Secrets Manager rotation, least-privilege IAM, and **k6** load-testing benchmarks.
+
+</details>
+
+---
+
+### 🎓 [Classmos — AI-Powered Gamified Learning & Analytics Platform](https://github.com/madan-d/classmos)
+`FULL-STACK · GENAI · EDTECH · ML ANALYTICS` — Full-stack gamified learning platform with **Gemini** content generation, an **adaptive Elo engine**, and **scikit-learn** analytics.
+
+**Stack:** `React` · `TypeScript` · `Vite` · `Tailwind CSS` · `Firebase` · `Cloud Firestore` · `Google Gemini` · `FastAPI` · `Python` · `scikit-learn`
+
+<details>
+<summary>Key Architecture &amp; Highlights</summary>
+
+- Built role-based student and teacher workflows using **React 19**, **TypeScript**, and **Firebase (Auth & Cloud Firestore)**.
+- Integrated **Google Gemini (`gemini-2.5-flash`)** to convert uploaded PDFs/images into structured unit cheat-sheets and Bloom's-scaled interactive quizzes paired with an **adaptive Elo rating engine**, hearts, streaks, and leaderboards.
+- Engineered a **Python FastAPI** backend powering a syllabus-aware **Gemma 3 AI Tutor** and a **scikit-learn** analytics pipeline (**K-Means** clustering and **Random Forest** at-risk student prediction validated with **McNemar's test**).
+
+</details>
 
 ---
 
@@ -80,7 +93,7 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 | **Backend & APIs** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=61DAFB) |
 | **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-web-services&logoColor=FF9900) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Linux](https://img.shields.io/badge/RHEL%20/%20Linux-EE0000?style=flat-square&logo=redhat&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 | **Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20%2F%20pgvector-316192?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) |
-| **Data, AI & Frontend** | ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white) |
+| **Data, AI & Frontend** | ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white) |
 
 ---
 
@@ -97,4 +110,12 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=madan-d&theme=dark&hide_border=true" alt="GitHub Streak" height="165" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=madan-d&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" height="165" />
+</div>
+
+---
+
+<div align="center">
+
+[![Profile Views](https://visitcount.itsvg.in/api?id=madan-d&icon=0&color=0)](https://visitcount.itsvg.in)
+
 </div>
