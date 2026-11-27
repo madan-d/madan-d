@@ -26,7 +26,7 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 
 ## 💼 Experience
 
-### **Nokia** - *Student Intern*
+### **Nokia** — *Student Intern*
 `Aug 2025 – Jun 2026` · `Bangalore, India`
 - **Maritime Dynamic 5G Prototype:** Architected an automated geofencing system from scratch using **Python, FastAPI, and Shell Scripting on RHEL**, adapting static Femto Small Cells for maritime deployment with 100% international regulatory compliance.
 - **Geospatial Validation Engine:** Built a spatial boundary engine with **GeoPandas** and EEZ/land-union shapefiles, polling live telemetry via SSH and `cgps` to dynamically lock/unlock cell transmissions.
@@ -37,8 +37,24 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 
 ## 🚀 Featured Projects
 
+### 🚌 [MyFleet — Real-Time Spatial Telemetry & Transit Tracking Platform](https://github.com/madan-d/MyFleet) · [Live Demo](https://projects.madan.me/myfleet/)
+`FULL-STACK · GO · GEOSPATIAL · REAL-TIME` — Real-time spatial telemetry and transit tracking platform powered by a **Go WebSocket** backend, **Redis (GEO & Pub/Sub)**, **PostgreSQL + PostGIS**, and **React + Leaflet**.
+
+**Stack:** `Go` · `PostgreSQL` · `PostGIS` · `Redis` · `WebSockets` · `React` · `TypeScript` · `Leaflet` · `Tailwind CSS` · `Docker`
+
+<details>
+<summary>Key Architecture &amp; Highlights</summary>
+
+- Ingests 2s GPS streams over `/ws/ingest` into a spatial geofencing engine featuring 100m stop arrival/departure detection, rolling stop ETAs, and >250m route-deviation alerts.
+- Fans out live telemetry updates via **Redis Pub/Sub** and `GEORADIUS` queries, while batching breadcrumbs (`GEOGRAPHY(Point, 4326)`) into **PostGIS** every 5s through a buffered worker pool.
+- Includes an OSRM road-snapped 20-bus simulator, mobile Driver Broadcast mode (`/driver`), smooth `requestAnimationFrame` map interpolation, and historical PostGIS Trip Replay (`/replay/:trip_id`).
+
+</details>
+
+---
+
 ### 🛡️ [Autonomous Self-Healing Kubernetes Platform (GitOps & AIOps)](https://github.com/madan-d/self_healing-microservices-platform)
-`DEVOPS · CLOUD · GITOPS · AIOPS` - Production-grade self-healing cloud platform on **AWS EKS** with **Terraform**, **ArgoCD**, and an autonomous **FastAPI AIOps** incident bot.
+`DEVOPS · CLOUD · GITOPS · AIOPS` — Production-grade self-healing cloud platform on **AWS EKS** with **Terraform**, **ArgoCD**, and an autonomous **FastAPI AIOps** incident bot.
 
 **Stack:** `AWS EKS` · `Terraform` · `Kubernetes` · `ArgoCD` · `FastAPI` · `Prometheus` · `Trivy` · `Docker` · `PostgreSQL`
 
@@ -54,7 +70,7 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 ---
 
 ### 📦 ["Client-in-a-Box" Enterprise RAG & Event-Driven Ingestion Pipeline](https://github.com/madan-d/client-in-a-box-rag)
-`CLOUD · AI ENGINEERING · FDE · TERRAFORM` - Single-tenant, zero-egress document ingestion and RAG platform deployed inside an isolated **AWS VPC**.
+`CLOUD · AI ENGINEERING · FDE · TERRAFORM` — Single-tenant, zero-egress document ingestion and RAG platform deployed inside an isolated **AWS VPC**.
 
 **Stack:** `AWS S3` · `EventBridge` · `AWS Lambda` · `ECS Fargate` · `Terraform` · `FastAPI` · `pgvector` · `Gemini / Bedrock` · `k6`
 
@@ -69,8 +85,8 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 
 ---
 
-### 🎓 [Classmos - AI-Powered Gamified Learning & Analytics Platform](https://github.com/madan-d/classmos)
-`FULL-STACK · GENAI · EDTECH · ML ANALYTICS` - Full-stack gamified learning platform with **Gemini** content generation, an **adaptive Elo engine**, and **scikit-learn** analytics.
+### 🎓 [Classmos — AI-Powered Gamified Learning & Analytics Platform](https://github.com/madan-d/classmos)
+`FULL-STACK · GENAI · EDTECH · ML ANALYTICS` — Full-stack gamified learning platform with **Gemini** content generation, an **adaptive Elo engine**, and **scikit-learn** analytics.
 
 **Stack:** `React` · `TypeScript` · `Vite` · `Tailwind CSS` · `Firebase` · `Cloud Firestore` · `Google Gemini` · `FastAPI` · `Python` · `scikit-learn`
 
@@ -90,18 +106,19 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 | Domain | Technologies |
 | :--- | :--- |
 | **Languages** | ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white) |
-| **Backend & APIs** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=61DAFB) |
-| **Cloud & DevOps** | ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-web-services&logoColor=FF9900) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![Linux](https://img.shields.io/badge/RHEL%20/%20Linux-EE0000?style=flat-square&logo=redhat&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
-| **Databases** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20%2F%20pgvector-316192?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black) |
-| **Data, AI & Frontend** | ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white) ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| **Backend & Testing** | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=flat-square&logo=express&logoColor=61DAFB) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white) |
+| **Cloud, IaC & DevOps** | ![AWS](https://img.shields.io/badge/AWS_(S3%20%7C%20Lambda%20%7C%20ECS%20%7C%20EventBridge)-232F3E?style=flat-square&logo=amazon-web-services&logoColor=FF9900) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white) ![LocalStack](https://img.shields.io/badge/LocalStack-3B4D6B?style=flat-square) ![Linux](https://img.shields.io/badge/RHEL%20/%20Linux-EE0000?style=flat-square&logo=redhat&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
+| **Databases & Storage** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20%2F%20PostGIS%20%2F%20pgvector-316192?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Firebase](https://img.shields.io/badge/Firebase%20%2F%20Firestore-FFCA28?style=flat-square&logo=firebase&logoColor=black) ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white) |
+| **Data, AI & Analytics** | ![AWS Bedrock](https://img.shields.io/badge/AWS%20Bedrock%20%2F%20RAG-232F3E?style=flat-square&logo=amazon-web-services&logoColor=FF9900) ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white) ![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=flat-square) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black) |
 
 ---
 
 ## 📜 Certifications
 
-- **[Cloud Computing](https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs118/Course/NPTEL24CS118S105251338904118131.pdf)** - NPTEL (`2024`)
-- **[Introduction to Machine Learning](https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs101/Course/NPTEL24CS101S123310200404118131.pdf)** - NPTEL (`2024`)
-- **[Data Base Management System](https://archive.nptel.ac.in/content/noc/NOC23/SEM2/Ecertificates/106/noc23-cs79/Course/NPTEL23CS79S3554052210072626.pdf)** - NPTEL (`2024`)
+- **[Cloud Computing](https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs118/Course/NPTEL24CS118S105251338904118131.pdf)** — NPTEL (`2024`)
+- **[Introduction to Machine Learning](https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs101/Course/NPTEL24CS101S123310200404118131.pdf)** — NPTEL (`2024`)
+- **[Data Base Management System](https://archive.nptel.ac.in/content/noc/NOC23/SEM2/Ecertificates/106/noc23-cs79/Course/NPTEL23CS79S3554052210072626.pdf)** — NPTEL (`2024`)
 
 ---
 
