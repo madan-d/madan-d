@@ -37,7 +37,7 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 
 ## 🚀 Featured Projects
 
-### 🚌 [MyFleet — Real-Time Spatial Telemetry & Transit Tracking Platform](https://github.com/madan-d/MyFleet) · [Live Demo](https://projects.madan.me/myfleet/)
+### 🚌 [MyFleet — Real-Time Spatial Telemetry & Transit Tracking Platform](https://github.com/madan-d/MyFleet) · [Live Demo](https://projects.madan.me/myfleet)
 `FULL-STACK · GO · GEOSPATIAL · REAL-TIME` — Real-time spatial telemetry and transit tracking platform powered by a **Go WebSocket** backend, **Redis (GEO & Pub/Sub)**, **PostgreSQL + PostGIS**, and **React + Leaflet**.
 
 **Stack:** `Go` · `PostgreSQL` · `PostGIS` · `Redis` · `WebSockets` · `React` · `TypeScript` · `Leaflet` · `Tailwind CSS` · `Docker`
