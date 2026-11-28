@@ -85,7 +85,7 @@ Building robust, scalable systems at the intersection of backend engineering, cl
 
 ---
 
-### 🎓 [Classmos — AI-Powered Gamified Learning & Analytics Platform](https://github.com/madan-d/classmos)
+### 🎓 [Classmos — AI-Powered Gamified Learning & Analytics Platform](https://github.com/madan-d/classmos) · [Live Demo](https://projects.madan.me/classmos)
 `FULL-STACK · GENAI · EDTECH · ML ANALYTICS` — Full-stack gamified learning platform with **Gemini** content generation, an **adaptive Elo engine**, and **scikit-learn** analytics.
 
 **Stack:** `React` · `TypeScript` · `Vite` · `Tailwind CSS` · `Firebase` · `Cloud Firestore` · `Google Gemini` · `FastAPI` · `Python` · `scikit-learn`
